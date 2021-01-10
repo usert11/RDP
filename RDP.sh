@@ -3,7 +3,7 @@ printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m kof11
 sudo adduser kof11 sudo
-echo 'kof:8426' | sudo chpasswd
+echo 'kof11:8426' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
